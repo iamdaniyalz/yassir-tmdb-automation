@@ -1,7 +1,6 @@
 *** Settings ***
 Documentation  Search for a movie, view details and add to favorites
 Resource  ../resources/resource.robot
-Test Teardown  Close Application
 
 *** Variables ***
 ${Search-Button}  com.kshitijchauhan.haroldadmin.moviedb:id/etSearchBox
