@@ -18,5 +18,6 @@ Search for ${Movie-Name} and view its details
   Click Element  ${Search-Result}
 
 Add movie to favorites
+  Wait Until Element Is Visible   ${Add-To-Favorites}
   Click Element  ${Add-To-Favorites}
   Wait Until Page Contains   Added to favorites
