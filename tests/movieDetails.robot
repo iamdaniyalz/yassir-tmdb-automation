@@ -1,8 +1,7 @@
 *** Settings ***
 Documentation  Search for a movie, view details and add to favorites
 Resource  ../resources/resource.robot
-# Test Setup     Open Android TMDB Movie App
-# Test Teardown  Close Application
+Test Teardown  Close Application
 
 *** Variables ***
 ${Search-Button}  com.kshitijchauhan.haroldadmin.moviedb:id/etSearchBox
@@ -22,4 +21,3 @@ Search for ${Movie-Name} and view its details
 Add movie to favorites
   Click Element  ${Add-To-Favorites}
   Wait Until Page Contains   Added to favorites
-  # Element Should Not Contain Text 
