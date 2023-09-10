@@ -1,0 +1,19 @@
+{
+  "name": "tmdb-automation-using-cucumber",
+  "author": "Daniyal",
+  "version": "1.0.0",
+  "description": "TMDB automation using cucumber",
+  "scripts": {
+    "android_test": "cucumber-js features/*.feature  -r features/support -r features/android -r features/step_definitions"
+  },
+  "devDependencies": {
+    "appium": "^1.10.1",
+    "appium-doctor": "^1.9.0",
+    "assert": "^2.0.0",
+    "chai": "^4.1.2",
+    "cucumber": "^4.2.1",
+    "mocha": "^6.0.0",
+    "wd": "^1.11.1",
+    "webdriverio": "^5.1.0"
+  }
+}
