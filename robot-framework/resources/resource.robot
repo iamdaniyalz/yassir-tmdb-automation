@@ -5,7 +5,7 @@ Library  BuiltIn
 
 *** Variables ***
 ${ANDROID_AUTOMATION_NAME}    UIAutomator2
-${ANDROID_APP}                ${CURDIR}/../app/moviedb.apk
+${ANDROID_APP}                ${CURDIR}/../../app/moviedb.apk
 ${ANDROID_PLATFORM_NAME}      Android
 ${ANDROID_PLATFORM_VERSION}   %{ANDROID_PLATFORM_VERSION=14}
 ${ANDROID_APP_PACKAGE}        com.kshitijchauhan.haroldadmin.moviedb
