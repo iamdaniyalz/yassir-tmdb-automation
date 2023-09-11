@@ -20,6 +20,9 @@ Test automation for TMDb client for Android
     > Proxyman
     
 4. Refer to the project folder structure as following
+
+**IMPORTANT NOTE**
+Please note that the last test Adding movie to favroites in both test suites is deliberately made to fail.
    
 **Demos**
 
